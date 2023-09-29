@@ -24,7 +24,7 @@ func _ready():
 		$ColorRect.color = Color8(134,142,150,255)
 
 func _physics_process(_delta):
-	if dying:
+	if dying and not $Confetti.emitting:
 		queue_free()
 
 func hit():
@@ -33,6 +33,7 @@ func hit():
 func die():
 	dying = true
 	collision_layer = 0
+	$Confetti.emitting = true
 	$ColorRect.hide()
 	Global.update_score(score)
 	get_parent().check_level()

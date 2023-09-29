@@ -4,7 +4,7 @@
 [ext_resource type="PackedScene" uid="uid://wlhd3xyfvblm" path="res://Paddle/Paddle.tscn" id="2"]
 [ext_resource type="Script" path="res://Ball/Ball_Container.gd" id="3"]
 [ext_resource type="Script" path="res://Game.gd" id="4"]
-[ext_resource type="PackedScene" path="res://UI/Pause_Menu.tscn" id="5"]
+[ext_resource type="PackedScene" uid="uid://dk8lflitnwbfc" path="res://UI/Pause_Menu.tscn" id="5"]
 [ext_resource type="Script" path="res://Wall/Wall.gd" id="6"]
 [ext_resource type="PackedScene" uid="uid://bx3nxb0t4wryk" path="res://UI/HUD.tscn" id="7"]
 [ext_resource type="PackedScene" uid="uid://1rnbjmcx1n5y" path="res://UI/Instructions.tscn" id="8"]
